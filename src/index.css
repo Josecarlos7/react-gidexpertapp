@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ padding: 60px;
+}
+
+input {
+    font-size: 1.3rem;
+    width: 100%;
+    color: blue;
+}
+ 
+.button{
+    width: 100%;
+    background-color: limegreen;
+    color:white;
+    height: 30px;;
+}
+
+.card-grid{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.card{
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
+
+.card img{
+    max-height: 170px;
+}
+
+.categoria-name{
+    background-color: blue;
+    color:white;
+    text-align:center;
+    height:40px;
+}
